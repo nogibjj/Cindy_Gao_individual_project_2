@@ -6,12 +6,11 @@
 ## Project Overview
 
 This project is a Rust-based Command Line Interface (CLI) application that integrates with mini project week8 and an SQLite database, demonstrating CRUD (Create, Read, Update, Delete) operations. The primary focus is to showcase Rust's unique features and syntax, while also highlighting how an LLM (Language Model) was used in the development process. The optimized Rust binary is generated using GitLab Actions, and a workflow file is provided for testing, building, and linting the code.
+<br><br>
 
-
-## Raw Data
+## Raw Data Resource
 https://raw.githubusercontent.com/fivethirtyeight/data/refs/heads/master/murder_2016/murder_2015_final.csv <br><br>
 The dataset presents the numbers of murders in 2014 and 2015, grouped by different cities in the US. <br><br>
-
 ## File structure
 ```plaintext
 CINDY_GAO_INDIVIDUAL_PROJECT_2/
@@ -48,13 +47,18 @@ CINDY_GAO_INDIVIDUAL_PROJECT_2/
 <br><br>
 ## Features
 
-__Rust Source Code:__ The code thoroughly demonstrates Rust’s syntax and leverages unique language features such as memory safety, concurrency, and type system.
-__SQLite Database:__ Includes a SQLite database that enables CRUD operations managed within the lib.rs file in the src directory.
-__Optimized Rust Binary:__ The optimized binary is generated as a GitLab Actions artifact, making it accessible and easily downloadable.
-__GitHub/GitLab Actions:__ A CI/CD pipeline file is included to automate testing, building, and linting of the Rust code.
-__Video Demo:__ A video walkthrough is available, showcasing the functionality and usage of the CLI binary.
+__Rust Source Code:__ The code thoroughly demonstrates Rust’s syntax and leverages unique language features such as memory safety, concurrency, and type system.<br>
+__SQLite Database:__ Includes a SQLite database that enables CRUD operations managed within the lib.rs file in the src directory.<br>
+__Optimized Rust Binary:__ The optimized binary is generated as a GitLab Actions artifact, making it accessible and easily downloadable.<br>
+__GitHub/GitLab Actions:__ A CI/CD pipeline file is included to automate testing, building, and linting of the Rust code.<br>
+__Video Demo:__ A video walkthrough is available, showcasing the functionality and usage of the CLI binary.<br>
+<br><br>
+## Usage of Large Language Models
+GitHub Copilot and ChatGPT both played key roles in developing this project. GitHub Copilot was particularly useful for converting Python functions to Rust, providing intelligent code suggestions and syntax adaptations for Rust, especially in areas like file handling, command-line parsing, and database operations. This made translating ETL functions and database queries from Python to Rust much more efficient.
 
-
+ChatGPT was also utilized throughout the project for debugging, optimization, and refining complex logic in Rust. It assisted with troubleshooting errors, understanding Rust-specific best practices, and improving code performance. 
+<br>
+<br><br>
 ## Usage of CRUD operations
 Below are the commands available in the CLI for CRUD operations, implemented in `src/lib.rs`:
 
@@ -88,9 +92,10 @@ Below are the commands available in the CLI for CRUD operations, implemented in 
   ```bash
   ./target/release/cindy_gao_individual_project_2 sorting_change
   ```
+<br><br>
+## Optimized Rust Binary Download Url
+Artifact download URL: https://github.com/nogibjj/Cindy_Gao_individual_project_2/actions/runs/11562869727/artifacts/2114652773
+<br><br>
 
-## Usage of Large Language Models
-GitHub Copilot and ChatGPT both played key roles in developing this project. GitHub Copilot was particularly useful for converting Python functions to Rust, providing intelligent code suggestions and syntax adaptations for Rust, especially in areas like file handling, command-line parsing, and database operations. This made translating ETL functions and database queries from Python to Rust much more efficient.
-
-ChatGPT was also utilized throughout the project for debugging, optimization, and refining complex logic in Rust. It assisted with troubleshooting errors, understanding Rust-specific best practices, and improving code performance. 
-
+## Demo Video Url
+Youtube demo url:
