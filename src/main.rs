@@ -1,4 +1,4 @@
-use cindy_gao_mini_week8::{delete_query, extract, load, read_query, sorting_change, update_query};
+use cindy_gao_individual_project_2::{delete_query, extract, load, read_query, sorting_change, update_query};
 use std::error::Error;
 use std::time::Instant;
 use sysinfo::{System, SystemExt};
