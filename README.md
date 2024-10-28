@@ -11,6 +11,10 @@ This project is a Rust-based Command Line Interface (CLI) application that integ
 ## Raw Data Resource
 https://raw.githubusercontent.com/fivethirtyeight/data/refs/heads/master/murder_2016/murder_2015_final.csv <br><br>
 The dataset presents the numbers of murders in 2014 and 2015, grouped by different cities in the US. <br><br>
+
+## Demo Video Url
+Youtube demo url: https://www.youtube.com/watch?v=Cx3lQ1QXyAc <br><br>
+
 ## File structure
 ```plaintext
 CINDY_GAO_INDIVIDUAL_PROJECT_2/
@@ -96,6 +100,3 @@ Below are the commands available in the CLI for CRUD operations, implemented in 
 ## Optimized Rust Binary Download Url
 Artifact download URL: https://github.com/nogibjj/Cindy_Gao_individual_project_2/actions/runs/11562869727/artifacts/2114652773
 <br><br>
-
-## Demo Video Url
-Youtube demo url: https://www.youtube.com/watch?v=Cx3lQ1QXyAc
