@@ -36,5 +36,5 @@ jobs:
     - name: Upload Binary Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: Cindy_Gao_mini_week8
-        path: target/release/Cindy_Gao_mini_week8
+        name: Cindy_Gao_individual_project_2
+        path: target/release/Cindy_Gao_individual_project_2

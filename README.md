@@ -19,7 +19,7 @@ The dataset presents the numbers of murders in 2014 and 2015, grouped by differe
 
 ## File structure
 ```plaintext
-CINDY_GAO_MINI_WEEK8/
+CINDY_GAO_INDIVIDUAL_PROJECT_2/
 ├── .devcontainer/                 # Development container configurations
 ├── .github/
 │   └── workflows/                 # CI/CD workflows
