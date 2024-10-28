@@ -1,7 +1,7 @@
 use rusqlite::Connection;
 use std::error::Error;
 use std::fs;
-use cindy_gao_mini_week8::{extract, load, read_query, update_query, delete_query, sorting_change};
+use cindy_gao_individual_project_2::{extract, load, read_query, update_query, delete_query, sorting_change};
 
 fn setup_database() -> Result<(), Box<dyn Error>> {
     let dataset_path = "data/murder_2015_final.csv";
