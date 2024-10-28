@@ -98,4 +98,4 @@ Artifact download URL: https://github.com/nogibjj/Cindy_Gao_individual_project_2
 <br><br>
 
 ## Demo Video Url
-Youtube demo url:
+Youtube demo url: https://www.youtube.com/watch?v=Cx3lQ1QXyAc
