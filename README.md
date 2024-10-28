@@ -2,11 +2,15 @@
 [![Rust CI/CD Pipeline](https://github.com/nogibjj/Cindy_Gao_mini_week8/actions/workflows/rust.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_mini_week8/actions/workflows/rust.yml)
 
 
-# Mini Project 8: Rewrite a Python Script in Rust
+# Individual Project 2: Rust CLI Binary with SQLite
 ## Requirements
-* Take an existing Python script for data processing
-* Rewrite it in Rust
-* Highlight improvements in speed and resource usage <br><br>
+* __Rust source code:__ The code should comprehensively understand Rust's syntax and unique features.
+* __Use of LLM:__ In your README, explain how you utilized an LLM in your coding process.
+* __SQLite Database:__ Include a SQLite database and demonstrate CRUD (Create, Read, Update, Delete) operations.
+* __Optimized Rust Binary:__ Include a process that generates an optimized Rust binary as a Gitlab Actions artifact that can be downloaded.
+* __README.md:__ A file that clearly explains what the project does, its dependencies, how to run the program, and how Gitlab Copilot was used.
+* __Github/Gitlab Actions:__ A workflow file that tests, builds, and lints your Rust code.
+* __Video Demo:__ A YouTube link in README.md showing a clear, concise walkthrough and demonstration of your CLI binary.
 
 
 ## Raw Data
